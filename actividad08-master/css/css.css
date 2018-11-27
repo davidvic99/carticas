@@ -1,0 +1,72 @@
+#cartajugador{
+width: 350px;
+height: 450px;
+border: 1px solid black;
+border-collapse: collapse;
+
+
+}
+.palodecartaupr{
+
+
+    margin-left: 75.2%;
+    font-size: 45px;
+    margin-top: 1%;
+    color:red;
+
+}
+.palodecartadownr{
+
+
+    margin-top: 45%;
+    margin-left: 2%;
+    font-size: 45px;
+    position: relative;
+    float: left;
+    color: red;
+
+}
+
+
+.cartasenelmedior{
+    color: red;
+    width: 150px;
+    height: 50px;
+    margin-left: 27%;
+    font-size: 40px;
+    margin-top: 25%;
+    
+}
+
+.palodecartaup{
+
+
+    margin-left: 75.2%;
+    font-size: 45px;
+    margin-top: 1%;
+ 
+
+}
+.palodecartadown{
+
+    margin-top: 38%;
+    margin-left: 2%;
+    font-size: 45px;
+    position: relative;
+    float: left;
+    color: black;
+   
+   
+  
+
+}
+.cartasenelmedio{
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-left: 27%;
+    font-size: 40px;
+
+  
+ 
+}
