@@ -5,7 +5,9 @@ palo = Array("&#9829","&#9830","&#9827",'&#9824') //♥ ♦ ♣ ♠
 paloRandom=Math.floor(Math.random(0)*(4));
 paloColor = Array("rojo", "negro");
 colorRandom=Math.floor(Math.random(0)*(2));
-console.log(paloColor[colorRandom])
+
+
+alert("Por favor, utilize Mozilla firefox para este script.")
 
 while(i<2){
    
@@ -62,25 +64,47 @@ while(i<2){
                     if (mayoronmenor == "mayor") {
                         if(cartajugador>cartablanca){
                             contadorpuntos = contadorpuntos + 1;
-
+                            if (contadorpuntos<0) {
+                                contadorpuntos = 0
+                                
+                            }
                             document.write(`<p id=puntuacion>La puntuacion del usuario es de ${contadorpuntos}</p>`);
                             document.write(`<p id=cartablanca>La carta blanca es ${cartablanca}</p>`)
+                           
                         }else{
                             contadorpuntos = contadorpuntos - 1;
+                            if (contadorpuntos<0) {
+                                contadorpuntos = 0
+                                
+                            }
                             document.write(`<p id=puntuacion>La puntuacion del usuario es de ${contadorpuntos}</p>`);
                             document.write(`<p id=cartablanca>La carta blanca es ${cartablanca}</p>`)
+                            if (contadorpuntos<0) {
+                                contadorpuntos = 0
+                                
+                            }
                         }
                         
                 
                 }if(mayoronmenor == "menor"){
                     if(cartablanca>cartajugador){
                         contadorpuntos = contadorpuntos + 1;
+                        if (contadorpuntos<0) {
+                            contadorpuntos = 0
+                            
+                        }
                         document.write(`<p id=puntuacion>La puntuacion del usuario es de ${contadorpuntos}</p>`);
                         document.write(`<p id=cartablanca>La carta blanca es ${cartablanca}</p>`)
+                       
                     }else {
                         contadorpuntos = contadorpuntos - 1;
+                        if (contadorpuntos<0) {
+                            contadorpuntos = 0
+                            
+                        }
                         document.write(`<p id=puntuacion>La puntuacion del usuario es de ${contadorpuntos}</p>`); 
                         document.write(`<p id=cartablanca>La carta blanca es ${cartablanca}</p>`) 
+                      
 
                     }
 
@@ -95,7 +119,7 @@ while(i<2){
         
 
             
-     
+               
        
 
        
